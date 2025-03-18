@@ -1,1 +1,9 @@
-a.txt
+[server]
+headless = true
+port = 8501
+
+[theme]
+base="dark"
+primaryColor = '#E694FF'
+backgroundColor = "#000000"
+textColor = '#E8E8E8'
