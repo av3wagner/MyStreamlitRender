@@ -10,7 +10,7 @@ import pathlib
 from os import listdir
 from os.path import isfile, join
 import glob
-import gunicorn
+#import gunicorn
 
 st.set_page_config(
     page_title="Asfendijarov Kazakh National Medical University «АСНИ-МЕД»",
