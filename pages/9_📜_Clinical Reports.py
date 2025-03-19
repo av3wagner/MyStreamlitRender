@@ -13,12 +13,6 @@ import glob
 import os, sys
 import subprocess
 
-#os.chdir("/mount/src/asnifen/")
-#sys.path.append("/mount/src/asnifen/")
-#sys.path.append("/mount/src/asnifen/assets")
-#sys.path.append("/mount/src/asnifen/modules")
-#sys.path.append("/mount/src/asnifen/modules/programs") 
-
 def show_pdf(file_path):
     st.title('✨ Визуализация PDF документа 📜')
     st.markdown("")
