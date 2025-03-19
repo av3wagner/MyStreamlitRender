@@ -33,7 +33,7 @@ add_logo("./assets/KI.jpg", height=100)
 pg = st.navigation(
     [
         st.Page(Home),
-	st.Page('pages/8_📄_EDA-ML Reports.py'),    
+	st.Page('pages/7_🤖_Model Building.py'),    
         st.Page('pages/8_📄_EDA-ML Reports.py'),
 	st.Page('pages/9_📜_Clinical Reports.py')    
     ]
