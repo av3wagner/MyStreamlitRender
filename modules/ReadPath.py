@@ -33,7 +33,8 @@ def execute_python_file_New(file_path):
 
 def select_file():
     #File "/opt/render/project/src/modules/ReadPath.py", line 44, in select_file
-    parent_path = 'modules/programs'
+    #parent_path = 'modules/programs'
+    parent_path = '/opt/render/project/src/modules/programs'
     fileList = []
     fileList = listdir(parent_path)
     onlyfiles = [f for f in fileList if isfile(join(parent_path, f)) and  (f.endswith(".py"))]   
