@@ -26,8 +26,9 @@ st.set_page_config(
 
 from streamlit_extras.app_logo import add_logo
 # image has 200x200 pixels size
-add_logo("./assets/KI.jpg", height=200)
+add_logo("./assets/KI.jpg", height=100)
 st.sidebar.header("Меню Обучающая система")
+st.sidebar.title('Wide Sidebar')
 
 Part1 = '''## Краткое описание системы
 
