@@ -96,5 +96,5 @@ st.set_page_config(
 )
 
 import time
-exec(open("/mount/src/asnifen/modules/programs/MLtest.py").read(), globals())
+exec(open("/opt/render/project/src/modules/programs/MLtest.py").read(), globals())
 st.write('Ende Programm!')
