@@ -27,7 +27,6 @@ st.set_page_config(
     }
 )
 
-
 add_logo("./assets/KI.jpg", height=100)
 #https://github.com/streamlit/streamlit/issues/8960
 pg = st.navigation(
