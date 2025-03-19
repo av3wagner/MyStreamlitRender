@@ -49,7 +49,7 @@ def select_file():
             st.code(lines_to_display, "python")    
 
 def open_file_selection_doc():
-    parent_path = '/mount/src/asnifen/assets'
+    parent_path = '/assets'
     fileList = []
     extensions = ['pdf', 'docx']
     fileList = listdir(parent_path)
@@ -70,7 +70,7 @@ def open_file_selection_doc():
                 st.write(para.text) 
              
 def open_file_selection_doc2():
-    parent_path = '/mount/src/asnifen/assets'
+    parent_path = '/assets'
     fileList = []
     extensions = ['pdf', 'docx']
     fileList = listdir(parent_path)
