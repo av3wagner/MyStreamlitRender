@@ -34,12 +34,10 @@ pg = st.navigation(
     [
         st.Page(Home),
         st.Page('pages/8_📄_EDA-ML Reports.py')
-	st.Page('pages/basketball.py')    
+	st.Page('pages/9_📜_Clinical Reports.py')    
     ]
 )
 pg.run()
-#st.sidebar.header("Меню Обучающая система")
-#st.sidebar.title('Wide Sidebar')
 
 Part1 = '''## Краткое описание системы
 
