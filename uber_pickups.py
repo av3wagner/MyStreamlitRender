@@ -10,7 +10,10 @@ import pathlib
 from os import listdir
 from os.path import isfile, join
 import glob
-#import gunicorn
+from streamlit_extras.app_logo import add_logo
+
+def Home():
+    st.header('Обучающая система')
 
 st.set_page_config(
     page_title="Asfendijarov Kazakh National Medical University «АСНИ-МЕД»",
@@ -24,11 +27,19 @@ st.set_page_config(
     }
 )
 
-from streamlit_extras.app_logo import add_logo
-# image has 200x200 pixels size
+
 add_logo("./assets/KI.jpg", height=100)
-st.sidebar.header("Меню Обучающая система")
-st.sidebar.title('Wide Sidebar')
+
+pg = st.navigation(
+    [
+        st.Page(Home),
+        st.Page('pages/basketball.py')
+	st.Page('pages/basketball.py')    
+    ]
+)
+pg.run()
+#st.sidebar.header("Меню Обучающая система")
+#st.sidebar.title('Wide Sidebar')
 
 Part1 = '''## Краткое описание системы
 
