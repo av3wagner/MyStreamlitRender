@@ -27,7 +27,7 @@ st.set_page_config(
     }
 )
 
-add_logo("./assets/KI.jpg", height=100)
+add_logo("./assets/KI.jpg", height=200)
 #https://github.com/streamlit/streamlit/issues/8960
 pg = st.navigation(
     [
@@ -37,6 +37,7 @@ pg = st.navigation(
 	st.Page('pages/9_📜_Clinical Reports.py')    
     ]
 )
+
 pg.run()
 
 Part1 = '''## Краткое описание системы
