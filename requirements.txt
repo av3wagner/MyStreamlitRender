@@ -1,2 +1,15 @@
 streamlit
+toml
+seaborn
 matplotlib
+numpy
+pandas
+gunicorn
+scikit-learn
+scikit-plot
+scipy==1.11.4
+xgboost
+lightgbm
+docx
+dash
+pip
