@@ -13,7 +13,7 @@ import glob
 from streamlit_extras.app_logo import add_logo
 
 def Home():
-    st.header('Обучающая система')
+    st.header(' ')
 
 st.set_page_config(
     page_title="Asfendijarov Kazakh National Medical University «АСНИ-МЕД»",
