@@ -24,6 +24,10 @@ st.set_page_config(
     }
 )
 
+from streamlit_extras.app_logo import add_logo
+# image has 200x200 pixels size
+add_logo("./assets/KI.jpg", height=200)
+
 Part1 = '''## Краткое описание системы
 
 ### Содержание
