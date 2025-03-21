@@ -27,19 +27,6 @@ st.set_page_config(
     }
 )
 
-#add_logo("./assets/KI.jpg", height=200)
-#https://github.com/streamlit/streamlit/issues/8960
-pg = st.navigation(
-    [
-        st.Page(Home),
-	st.Page('pages/7_🤖_Model Building.py'),    
-        st.Page('pages/8_📄_EDA-ML Reports.py'),
-	st.Page('pages/9_📜_Clinical Reports.py')    
-    ]
-)
-
-#pg.run()
-
 Part1 = '''## Краткое описание системы
 
 ### Содержание
