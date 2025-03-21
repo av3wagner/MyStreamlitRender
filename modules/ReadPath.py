@@ -32,8 +32,6 @@ def execute_python_file_New(file_path):
         st.markdown(f"Error: The file '{file_path}' does not exist.")
 
 def select_file():
-    #File "/opt/render/project/src/modules/ReadPath.py", line 44, in select_file
-    #parent_path = 'modules/programs'
     parent_path = '/opt/render/project/src/modules/programs'
     fileList = []
     fileList = listdir(parent_path)
@@ -41,7 +39,7 @@ def select_file():
     option = st.selectbox('Выберите программу для EDA/ML-Анализа', onlyfiles)
     file_location=os.path.join(parent_path, option) 
     if file_location.find('.py') > 0:
-        #st.write(file_location)
+        st.write(file_location)
         if st.button('Запустите EDA/ML-программу'):
             execute_python_file(file_location)
             
