@@ -28,7 +28,12 @@ def change_param(x):
     return 'no'
 
 chVar=lambda x:change_param(x)
-data["survival_status"]=pd.DataFrame(data.survival_status.apply(change_param))        
+data["survival_status"]=pd.DataFrame(data.survival_status.apply(change_param))    
+
+col1, col2, col3 = st.columns( [1, 40, 1])
+with col2:  
+    st.markdown(f'<h1 style="color:yellow;font-size:28px;text-align:center">{"Автоматизировання Обучающая Система Научных Исследований в медицине и здравоохранении «АСНИ-Обучение»"}</h1>', unsafe_allow_html=True)
+    st.markdown(f'<h2 style="color:white;font-size:24px;text-align:center">{"Тестовый пример проведения разведочного анализа данных (EDA)"}</h2>', unsafe_allow_html=True)
 
 Part1 = '''## Что такое исследовательский анализ данных (EDA) и зачем он нам нужен?
 В чем заключается концепция?
