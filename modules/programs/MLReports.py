@@ -95,7 +95,12 @@ def plot_metrics(metrics_list):
         st.subheader('Precision-Recall Curve')
         plot_precision_recall_curve(model, X_test, y_test)
         st.pyplot()
-
+        
+col1, col2, col3 = st.columns( [1, 40, 1])
+with col2:  
+    st.markdown(f'<h1 style="color:yellow;font-size:28px;text-align:center">{"Автоматизировання Обучающая Система Научных Исследований в медицине и здравоохранении «АСНИ-Обучение»"}</h1>', unsafe_allow_html=True)
+    st.markdown(f'<h2 style="color:white;font-size:24px;text-align:center">{"Тестовый пример проведения анализа данных c помощью Машинного Обучения (ML)"}</h2>', unsafe_allow_html=True)
+            
 today = datetime.date.today()
 year = today.year
 
