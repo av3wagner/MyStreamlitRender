@@ -27,7 +27,7 @@ st.set_page_config(
     }
 )
 
-add_logo("./assets/KI.jpg", height=200)
+#add_logo("./assets/KI.jpg", height=200)
 #https://github.com/streamlit/streamlit/issues/8960
 pg = st.navigation(
     [
@@ -38,7 +38,7 @@ pg = st.navigation(
     ]
 )
 
-pg.run()
+#pg.run()
 
 Part1 = '''## Краткое описание системы
 
